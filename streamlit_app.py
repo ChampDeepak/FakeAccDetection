@@ -28,18 +28,18 @@ st.write(
 # -----------------------------
 @st.cache_resource
 def load_models():
-    rf = joblib.load("models/rf_model.pkl")
-    scaler = joblib.load("models/scaler.pkl")
-    pca = joblib.load("models/pca.pkl")
-    le = joblib.load("models/label_encoder.pkl")
-    nn = joblib.load("models/nn_index.pkl")
+    rf = joblib.load("model/rf_model.pkl")
+    scaler = joblib.load("model/scaler.pkl")
+    pca = joblib.load("model/pca.pkl")
+    le = joblib.load("model/label_encoder.pkl")
+    nn = joblib.load("model/nn_index.pkl")
 
-    db_labels_train = np.load("models/db_labels_train.npy")
+    db_labels_train = np.load("model/db_labels_train.npy")
 
-    with open("models/db_cluster_mapping.json") as f:
+    with open("model/db_cluster_mapping.json") as f:
         db_cluster_mapping = json.load(f)
 
-    with open("models/feature_order.json") as f:
+    with open("model/feature_order.json") as f:
         feature_order = json.load(f)
 
     return rf, scaler, pca, le, nn, db_labels_train, db_cluster_mapping, feature_order
