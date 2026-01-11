@@ -1,0 +1,57 @@
+{
+    "1": {
+        "label": "fake_follower",
+        "purity": 0.9148832684824902,
+        "support": 2056
+    },
+    "2": {
+        "label": "genuine",
+        "purity": 0.9732441471571907,
+        "support": 299
+    },
+    "3": {
+        "label": "genuine",
+        "purity": 0.9570957095709571,
+        "support": 606
+    },
+    "4": {
+        "label": "fake_follower",
+        "purity": 0.9019607843137255,
+        "support": 102
+    },
+    "7": {
+        "label": "social_spambot",
+        "purity": 1.0,
+        "support": 407
+    },
+    "8": {
+        "label": "social_spambot",
+        "purity": 1.0,
+        "support": 35
+    },
+    "9": {
+        "label": "social_spambot",
+        "purity": 1.0,
+        "support": 140
+    },
+    "11": {
+        "label": "fake_follower",
+        "purity": 0.9491525423728814,
+        "support": 59
+    },
+    "12": {
+        "label": "genuine",
+        "purity": 0.9523809523809523,
+        "support": 105
+    },
+    "16": {
+        "label": "social_spambot",
+        "purity": 1.0,
+        "support": 25
+    },
+    "17": {
+        "label": "fake_follower",
+        "purity": 0.9230769230769231,
+        "support": 13
+    }
+}
